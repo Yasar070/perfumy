@@ -1,0 +1,56 @@
+
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+.Nav{
+    display: flex;
+   cursor: pointer;
+}
+.Listtag{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+/* search */
+.search{
+    margin-top: 20px;
+    text-align: center;
+}
+.searchbar{
+    height: 40px;
+    width: 800px;
+}
+/* product */
+.Box1{
+    border: solid black 2px;
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+.Img1{
+    height:200px;
+    width: 200px;
+}
+.products{
+    display: flex;
+    justify-content:center;
+}
+/* about */
+.about{
+    text-align: center;
+
+}
+/* footer */
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+}
